@@ -22,7 +22,7 @@ import {
 import { ShimmeredDetailsList } from "@fluentui/react/lib/ShimmeredDetailsList";
 import { Sticky, StickyPositionType } from "@fluentui/react/lib/Sticky";
 import { Panel } from "@fluentui/react/lib/Panel";
-import { PrimaryButton, DefaultButton } from "@fluentui/react/lib/Button";
+import { PrimaryButton } from "@fluentui/react/lib/Button";
 import { TextField } from "@fluentui/react/lib/TextField";
 import { Stack, StackItem } from "@fluentui/react/lib/Stack";
 import { Spinner, SpinnerSize } from "@fluentui/react/lib/Spinner";
@@ -337,14 +337,6 @@ const ShimmerListComponent: React.FC<Props> = ({ _context }) => {
         setData(response.entities);
       }).then(() => setDataLoaded(true));
   }
-  function pushFullPageNullRecords() {
-    var fullPageCount: number = 10;
-    var emptyArray = [];
-    for (let i = 0; i < fullPageCount; i++) {
-      emptyArray.push(null);
-    }
-    return emptyArray;
-  }
 
   useEffect(() => {
     getInitialData();
@@ -441,7 +433,6 @@ const ShimmerListComponent: React.FC<Props> = ({ _context }) => {
         }
       )
       .then(() => clearAllData())
-      // .then(() => setDisplayedData(pushFullPageNullRecords()))
       .then(() => setTimeout(() => reloadAllData(), 1000))
   }
 
@@ -512,7 +503,6 @@ const ShimmerListComponent: React.FC<Props> = ({ _context }) => {
         setCallInProgress(false);
       })
       .then(() => clearAllData())
-      // .then(() => setDisplayedData(pushFullPageNullRecords()))
       .then(() => setTimeout(() => reloadAllData(), 2000));
   }
   const openNewPanel = () => {
@@ -534,7 +524,6 @@ const ShimmerListComponent: React.FC<Props> = ({ _context }) => {
     setisSelected(false);
     deleteSelectedRecords()
       .then(() => clearAllData())
-      // .then(() => setDisplayedData(pushFullPageNullRecords()))
       .then(() => setTimeout(() => reloadAllData(), 1000));
   }
   const commandBarItems: ICommandBarItemProps[] = [
@@ -717,7 +706,6 @@ const ShimmerListComponent: React.FC<Props> = ({ _context }) => {
               columns={columns}
               enableShimmer={!isDataLoaded}
               flexMargin={20}
-              // selectionMode={SelectionMode.none}
               selectionMode={SelectionMode.multiple}
               selection={_selection}
               selectionPreservedOnEmptyClick={true}
@@ -730,7 +718,6 @@ const ShimmerListComponent: React.FC<Props> = ({ _context }) => {
             />
             {!isNextDataLoaded ? <Spinner size={SpinnerSize.large} /> : null}
           </MarqueeSelection>
-          {/* <PrimaryButton onClick={getNextPageData}>TEST</PrimaryButton> */}
         </ScrollablePane>
       </div>
     </>
