@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "wY/i7E+ftqggrIl7EHD8ohg+h4/kZXK16oJlqa5VKVlbwsnF4ljzaohcIqgYcicA0joc0PI+oF46JM9WUoPggA==",
+  "success": true,
+  "projectFilePath": "G:\\Code\\PracticePCF\\PracticeModalComponent\\modalbuttonsolution\\modalbuttonsolution.cdsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edvin\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\edvin\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "C:\\Users\\edvin\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.6.6\\microsoft.powerapps.msbuild.pcf.1.6.6.nupkg.sha512",
+    "C:\\Users\\edvin\\.nuget\\packages\\microsoft.powerapps.msbuild.solution\\1.6.6\\microsoft.powerapps.msbuild.solution.1.6.6.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,19 @@
+2021-06-08 16:27:14.730 - Info	
+Packing G:\Code\PracticePCF\PracticeModalComponent\modalbuttonsolution\obj\Debug\Metadata to bin\Debug\modalbuttonsolution.zip
+
+2021-06-08 16:27:14.739 - Info	Processing Component: Entities
+2021-06-08 16:27:14.741 - Info	Processing Component: Roles
+2021-06-08 16:27:14.744 - Info	Processing Component: Workflows
+2021-06-08 16:27:14.745 - Info	Processing Component: FieldSecurityProfiles
+2021-06-08 16:27:14.745 - Info	Processing Component: Templates
+2021-06-08 16:27:14.746 - Info	Processing Component: EntityMaps
+2021-06-08 16:27:14.748 - Info	Processing Component: EntityRelationships
+2021-06-08 16:27:14.752 - Info	Processing Component: OrganizationSettings
+2021-06-08 16:27:14.753 - Info	Processing Component: optionsets
+2021-06-08 16:27:14.754 - Info	Processing Component: CustomControls
+2021-06-08 16:27:14.759 - Info	 - PCFComponents.ReactModalComponent
+2021-06-08 16:27:14.767 - Info	Processing Component: SolutionPluginAssemblies
+2021-06-08 16:27:14.769 - Info	Processing Component: EntityDataProviders
+2021-06-08 16:27:15.091 - Info	
+Unmanaged Pack complete.
+
